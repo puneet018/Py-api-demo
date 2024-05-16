@@ -2,7 +2,7 @@ import json
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from urllib.parse import urlparse, parse_qs
 
-PORT = 5000
+PORT = 8000
 
 class API():
     def __init__(self):
